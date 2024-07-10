@@ -1,0 +1,85 @@
+@import url(fix.css);
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.navbar {
+    gap: 1rem;
+    display: grid;
+    padding: 1rem;
+    align-items: center;
+    background-color: #071311;
+    grid-template-columns: auto 1fr auto;
+    justify-content: space-between;
+    border-bottom: 0.05rem solid #034e34;
+}
+.navbar .private {
+    color: #eab308;
+    padding: 0.15rem;
+    width: fit-content;
+    border-radius: 0.30rem;
+    background-color: #422006;
+    border: 0.05rem solid #854d0e;
+}
+.navbar .logo span {
+    color: #01ffa9;
+}
+.navbar .main-link {
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #01ffa9;
+}
+
+.intro {
+    padding: 2rem;
+}
+.intro h1 span {
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+    background-color: #071311;
+    border: 0.05rem solid #034e34;
+}
+.intro > p {
+    margin-top: 1rem;
+    opacity: .5;
+}
+.knight-list {
+    padding: 0.3rem;
+    color: #fff;
+    margin-top: 1rem;
+    background-color: #0a0a0a;
+    border: 0.05rem solid #2d2d2d;
+}
+.knight-list ul {
+    gap: 1rem;
+    display: grid;
+    padding: 0.30rem 0;
+}
+.knight-list ul p {
+    cursor: pointer;
+    padding: 0.50rem;
+    border-radius: 0.50rem;
+}
+.knight-list ul p:hover {
+    background-color: #181818;
+}
+.knight-list h1 {
+    padding: 0.50rem 0;
+    border-bottom: 0.05rem solid #2d2d2d;
+}
+
+.update {
+    margin-top: 1rem;
+}
+.update p {
+    padding: 0.50rem;
+    color: #eab308;
+    width: fit-content;
+    text-align: justify;
+    border-radius: 0.30rem;
+    background-color: #422006;
+    border: 0.05rem solid #854d0e;
+}

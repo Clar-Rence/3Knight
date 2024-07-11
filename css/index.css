@@ -102,7 +102,8 @@
     border-bottom: 0.05rem solid #2d2d2d;
 }
 .knight-comment div h1 img {
-    height: 2.50rem;
+    height: 2.5rem;
+    width: 2.5rem;
     border-radius: 50rem;
 }
 .knight-comment div p {

@@ -9,10 +9,10 @@
     display: grid;
     padding: 1rem;
     align-items: center;
-    background-color: #071311;
+    background-color: #181818;
     grid-template-columns: auto 1fr auto;
     justify-content: space-between;
-    border-bottom: 0.05rem solid #034e34;
+    border-bottom: 0.05rem solid #2d2d2d;
 }
 .navbar .private {
     color: #eab308;
@@ -23,24 +23,40 @@
     border: 0.05rem solid #854d0e;
 }
 .navbar .logo span {
-    color: #01ffa9;
+    color: #2d2d2d;
 }
-.navbar .main-link {
+.navbar .music-drop {
     color: #fff;
-    padding: 5px 15px;
     border-radius: 5px;
+    position: relative;
     text-decoration: none;
-    background-color: #01ffa9;
+    padding: 0.15rem 0.50rem;
+    background-color: #0a0a0a;
+    border: 0.05rem solid #2d2d2d;
 }
+.navbar .music-drop .list {
+    right: 0;
+    gap: .5rem;
+    top: 100%;
+    z-index: 999;
+    width: 150px;
+    display: none;
+    padding: 0.50rem;
+    list-style: none;
+    position: absolute;
+    background-color: #181818;
+    border: .05rem solid #2d2d2d;
+}
+.navbar .music-drop .list li:nth-child(4) {
+    color: #dc2626;
+}
+.navbar .music-drop .list.close {
+    display: grid;
+}
+
 
 .intro {
     padding: 2rem;
-}
-.intro h1 span {
-    padding: 0.2rem;
-    border-radius: 0.5rem;
-    background-color: #071311;
-    border: 0.05rem solid #034e34;
 }
 .intro > p {
     margin-top: 1rem;
@@ -56,6 +72,7 @@
 .knight-list ul {
     gap: 1rem;
     display: grid;
+    border-top: 0.05rem solid #2d2d2d;
     padding: 0.30rem 0;
 }
 .knight-list ul p {
@@ -67,8 +84,14 @@
     background-color: #181818;
 }
 .knight-list h1 {
-    padding: 0.50rem 0;
-    border-bottom: 0.05rem solid #2d2d2d;
+    font-size: 15px;
+    color: #2563eb;
+    width: fit-content;
+    font-weight: normal;
+    margin-bottom: 0.30rem;
+    padding: 0.20rem 0.70rem;
+    border: 0.05rem solid #1e40af;
+    background-color: #172554;
 }
 
 .update {
@@ -102,14 +125,10 @@
     border-bottom: 0.05rem solid #2d2d2d;
 }
 .knight-comment div h1 img {
-    height: 2.5rem;
-    width: 2.5rem;
-    border-radius: 50rem;
+    height: 2.50rem;
+    width: 2.50rem;
+    border-radius: 10rem;
 }
 .knight-comment div p {
     padding: 0.5rem 0;
-}
-.knight-comment div > img {
-    height: 250px;
-    width: 100%;
 }

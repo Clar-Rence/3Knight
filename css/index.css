@@ -8,6 +8,7 @@
     gap: 1rem;
     display: grid;
     padding: 1rem;
+    overflow: hidden;
     align-items: center;
     background-color: #181818;
     grid-template-columns: auto 1fr auto;
